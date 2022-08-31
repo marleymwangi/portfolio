@@ -1,0 +1,21 @@
+.contact form{
+  @apply flex flex-col m-5 p-5;
+}
+
+.contact form label{
+  @apply my-2;
+}
+
+.contact form textarea{
+  @apply h-32 my-2 px-2 py-3 rounded text-white bg-gray-400 bg-opacity-30;
+}
+
+.contact form input{
+  @apply my-2 px-2 py-3 rounded text-white bg-gray-400 bg-opacity-30;
+}
+
+.contact form button{
+  @apply bg-gradient-to-r rounded-full from-purple-700 via-blue-800 to-blue-300
+  py-2 px-8 my-5 mx-auto w-full sm:w-48 font-normal 
+  hover:font-bold transition-all duration-500 ease-out;
+}

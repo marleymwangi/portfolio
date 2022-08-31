@@ -1,0 +1,63 @@
+.projects{
+  @apply py-5; 
+}
+
+.projects .grid-container{
+  @apply grid grid-cols-1 sm:grid-cols-2 gap-8 my-5; 
+}
+
+.projects .grid-container .card{
+  @apply rounded-lg p-4 flex flex-col bg-gray-900 mx-auto max-w-md sm:max-w-full md:max-w-md
+  drop-shadow-md shadow-white cursor-pointer;
+}
+
+.projects .grid-container .card .image{
+  @apply relative flex items-center justify-center h-3/5 mb-5;
+}
+
+.projects .grid-container .card .image img{
+  @apply rounded-md mb-2 w-full h-full object-cover z-10 
+  transition-all duration-500 ease-in-out;
+}
+
+.projects .grid-container .card .image.selected img{
+  @apply z-10 bg-blue-500 opacity-30 z-0;
+}
+
+.projects .grid-container .card .image h5{
+  @apply absolute text-lg font-extrabold pointer-events-none;
+}
+
+.projects .grid-container .card .title h3{
+  @apply text-2xl text-center text-white;
+}
+
+.projects .grid-container .card .title .divider{
+  @apply bg-gradient-to-r rounded-full from-purple-700 via-blue-800 to-blue-300
+  my-1 h-0.5 w-5 mx-auto;
+}
+
+.projects .grid-container .card p{
+  @apply text-sm flex-grow text-center;
+}
+
+.projects .grid-container .card h4{
+  @apply text-center mt-5;
+}
+
+.projects .grid-container .card .stack-list{
+  @apply flex flex-wrap justify-around list-none mt-2;
+}
+
+.projects .grid-container .card .stack-list li{
+  @apply text-sm text-blue-400 mr-2;
+}
+
+.projects .grid-container .card a button{
+  @apply flex py-1 px-3 rounded-lg my-3 z-50
+  mx-auto bg-gray-800 font-bold text-blue-300;
+}
+
+.projects .grid-container .card a img{
+  @apply ml-3 mt-1.5 h-3 w-3;
+}

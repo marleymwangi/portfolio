@@ -1,0 +1,11 @@
+.about{
+  @apply mt-10;
+}
+
+.about h5{
+  @apply text-lg mt-4 mb-4;
+}
+
+.about p{
+  @apply mb-4;
+}
