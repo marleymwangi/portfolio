@@ -3,7 +3,8 @@ import { useInView, motion } from "framer-motion";
 import { useRef } from "react";
 import { slideUp, opacity } from "./animation";
 import Rounded from "../../common/RoundedButton";
-export default function index() {
+
+export default function Description() {
   const phrase =
     "With over five years of experience, I’m a software developer focused on creating seamless, scalable digital experiences. I deliver clean, intuitive solutions that exceed client expectations.";
   const description = useRef(null);

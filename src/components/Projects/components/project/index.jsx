@@ -3,7 +3,7 @@ import React from "react";
 import { useRouter } from "next/navigation";
 import styles from "./style.module.scss";
 
-export default function index({ index, title, link, manageModal }) {
+export default function Project({ index, title, link, manageModal }) {
   const router = useRouter();
   const handleClick = (path) => {
     if (path) {
