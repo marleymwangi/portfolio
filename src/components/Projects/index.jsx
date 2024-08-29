@@ -126,9 +126,15 @@ export default function Projects() {
           );
         })}
       </div>
-      <Rounded>
-        <p>Resume</p>
-      </Rounded>
+      <a
+        href="https://docs.google.com/document/d/1ICRBBbUl2BruxZOXFfTrq_gua3MLmpAFfrt4jf7l3fQ/pub"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <Rounded>
+          <p>Resume</p>
+        </Rounded>
+      </a>
       <>
         <motion.div
           ref={modalContainer}
