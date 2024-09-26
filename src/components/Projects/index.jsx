@@ -12,13 +12,13 @@ const projects = [
     title: "Organic",
     src: "bento.png",
     color: "#d1fae5",
-    link: "https://bentobox-design.vercel.app",
+    link: "https://teganifresh.com/",
   },
   {
     title: "Taka Earth",
     src: "taka.png",
     color: "#ffedd5",
-    link: "https://corporate.taka.earth/",
+    link: "https://taka-main-site.vercel.app/",
   },
   {
     title: "Recess",

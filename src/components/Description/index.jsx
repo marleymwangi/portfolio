@@ -15,7 +15,7 @@ export default function Description() {
         <p>
           {phrase.split(" ").map((word, index) => {
             return (
-              <span key={index} className={styles.mask}>
+              <span key={index} className="relative overflow-hidden inline-flex">
                 <motion.span
                   variants={slideUp}
                   custom={index}
